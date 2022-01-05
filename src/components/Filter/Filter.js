@@ -33,8 +33,8 @@ const Filter = () => {
         name="name"
         onChange={onFilter}
         size="small"
-        label="Find contact by Name"
-        // variant="outlined"
+        label="Find by Name"
+        variant="outlined"
       />
       <TextField
         className={classes.filter}
@@ -43,8 +43,8 @@ const Filter = () => {
         name="lastname"
         onChange={onFilter}
         size="small"
-        label="Find contact by Lastname"
-        // variant="outlined"
+        label="Find by Lastname"
+        variant="outlined"
       />
       <TextField
         className={classes.filter}
@@ -53,8 +53,8 @@ const Filter = () => {
         name="age"
         onChange={onFilter}
         size="small"
-        label="Find contact by Age"
-        // variant="outlined"
+        label="Find by Age"
+        variant="outlined"
       />
       <span className={s.spanTitle}>Find contact by sex</span>
       <FormControlLabel
